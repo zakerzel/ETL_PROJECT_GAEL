@@ -88,28 +88,6 @@ Browse recent earthquakes
 
 Filter natural events (e.g., wildfires, volcanoes)
 
-### 📂 Project Structure
-Gael_ETL_Project/
-├── dags/
-│   ├── ingestion_weather.py
-│   ├── ingestion_quakes.py
-│   ├── ingestion_events.py
-│   ├── transform_all.py
-│   ├── load_mongo.py
-│   ├── main_pipeline.py
-│   └── utils/
-│       ├── api_helpers.py
-│       ├── mongo_utils.py
-│       └── transform_helpers.py
-│
-├── streamlit_app/
-│   ├── app.py
-│   └── Dockerfile
-│
-├── docker-compose.yml
-├── requirements.txt
-└── README.md
-
 ### Developed for
 Massive Data Management course
 Universidad Politécnica de Yucatán
