@@ -46,13 +46,7 @@ Streamlit dashboard
 
 Wait ~30–60 seconds until all services are fully initialized.
 
-### 🔐 Step 3: Create Airflow user (in a second terminal)
-
-After running `docker-compose up --build`, open another Git Bash terminal window and run:
-
-docker-compose run --rm webserver airflow users create --username admin --firstname Admin --lastname User --role Admin --email admin@example.com --password admin
-
-### 4. Access the Airflow UI
+### 3. Access the Airflow UI
 Open: http://localhost:8080
 
 Login:
@@ -68,7 +62,7 @@ Turn it on (toggle switch 🟢)
 
 Click “Trigger DAG” (lightning icon ⚡)
 
-### 5. Check DAG execution & logs
+### 4. Check DAG execution & logs
 Click on the DAG name
 
 Go to the Graph View or Tree View
@@ -77,7 +71,7 @@ Click on any task (e.g., ingest_weather)
 
 Click “View Log” to see output from each step
 
-### 6. Open the Streamlit Dashboard
+### 5. Open the Streamlit Dashboard
 Visit: http://localhost:8501
 
 You can:
