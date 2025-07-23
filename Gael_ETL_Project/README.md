@@ -30,7 +30,6 @@ To build a fully dockerized data pipeline that:
 ### 1. Clone the repository
 
 git clone https://github.com/zakerzel/ETL_PROJECT_GAEL.git
-cd ETL_PROJECT_GAEL/Gael_ETL_Project
 
 ### 2. Start all services using Docker Compose
 docker-compose up --build
